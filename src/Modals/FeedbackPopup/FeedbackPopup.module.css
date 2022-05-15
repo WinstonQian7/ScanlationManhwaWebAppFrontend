@@ -1,0 +1,25 @@
+.feedbackModal {
+  display: flex;
+  height: 2rem;
+}
+
+.feedbackModal svg {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.feedbackModal p {
+  flex: 1 1 80%;
+}
+
+.feedbackModal button {
+  height: 1.5rem;
+  width: 2rem;
+}
+
+.feedbackModal:before {
+  background-image: url(check_circle_black_24dp.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}

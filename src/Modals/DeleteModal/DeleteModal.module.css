@@ -1,0 +1,63 @@
+.container {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(44, 44, 44, 0.87);
+  font-family: 'Roboto Condensed', sans-serif;
+  z-index: 1;
+}
+
+.deleteForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 40%;
+  width: 30%;
+  max-height: 15rem;
+  min-height: 4rem;
+  max-width: 25rem;
+  min-width: 2rem;
+  background-color: #000;
+  border-radius: 2rem;
+  color: #fff;
+  padding: 1rem;
+}
+
+.formHeader {
+  text-align: center;
+  font: Poppins;
+  font-weight: 800;
+  padding: 0.5rem 0 0 0;
+  text-decoration: underline;
+  font-size: 1.5rem;
+  color: #FFE600;
+}
+
+.btnGroup {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding-top: 1.5rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 40%;
+  background: #7E7E7E;
+  border-radius: 1.2rem;
+  color: #fff;
+  border: none;
+}
+
+.btn:active,
+.btn:hover {
+  background-color: #00BBFFB0;
+}

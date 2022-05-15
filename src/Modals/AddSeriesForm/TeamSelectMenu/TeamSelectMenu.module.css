@@ -1,0 +1,48 @@
+.container {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.teamSelect {
+  display: flex;
+  background: #7E7E7E;
+  border-radius: 1.2rem;
+  height: 3rem;
+  width: 100%;
+  font-weight: 800;
+  padding: 0.25rem 0 0rem 0.5rem;
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin: 0.5rem;
+  border: 0;
+}
+
+.teamSelectOpen {
+  border-radius: 1.5rem 1.2rem 0 0;
+}
+
+.teamSelectDropdown {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  z-index: 2;
+  padding: 0;
+  border-radius: 12px;
+  margin: 0;
+  list-style: none;
+  cursor: default;
+}
+
+.teamSelectItem {
+  background: #7e7e7e;
+  color: #ffffff;
+  border: 1px solid #707070;
+}
+
+.teamSelectItem:hover {
+  background-color: #14002B;
+  border: 1px solid #FFE600;
+  font-weight: bold;
+}

@@ -1,0 +1,89 @@
+.container {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Roboto Condensed', sans-serif;
+  z-index: 1;
+}
+
+.underlay {
+  background-color: rgba(44, 44, 44, 0.87);
+  z-index: 0;
+}
+
+.addForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60%;
+  width: 30%;
+  max-height: 25rem;
+  min-height: 4rem;
+  max-width: 25rem;
+  min-width: 2rem;
+  background-color:#272626;
+  border-radius: 2rem;
+  color: #fff;
+  padding: 1rem;
+}
+
+.formHeader {
+  font: Poppins;
+  font-weight: 800;
+  padding: 3rem 0 0 0;
+  text-decoration: underline;
+  font-size: 1.5rem;
+  color: #FFE600;
+  text-transform: capitalize;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  width: 70%;
+}
+
+.formItemGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  width: 100%;
+}
+
+.btnGroup {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 1.5rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 50%;
+  background: #7E7E7E;
+  border-radius: 3rem;
+  color: #fff;
+  border: none;
+  margin: 0 0.2rem 0 0.2rem;
+}
+
+.submitBtn {
+  background-color: #00BBFFB0;
+}
+
+.submitBtn:disabled {
+  background-color: #464646 !important;
+  cursor: not-allowed;
+}
