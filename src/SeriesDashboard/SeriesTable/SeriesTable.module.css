@@ -1,0 +1,21 @@
+.newStatus {
+  border: 0.25rem solid;
+  border-radius: 50%;
+  outline-color: #00BBFF28;
+  background-color: #4BCFFF;
+}
+
+.favorite {
+  width: 100%;
+}
+
+.favorite img  {
+  width: 15%; 
+}
+
+.favorite img:hover {
+  outline: 0.25rem solid lightblue;
+  border-radius: 50%;
+  background-color: lightblue;
+  border-color: lightblue;
+}
