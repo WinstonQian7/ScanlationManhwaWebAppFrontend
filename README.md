@@ -1,3 +1,10 @@
+# Archived Project - The initial motivation was to build an site to allow users to track new chapter updates across different platforms. Project work was paused due to alternative solutions on the internet (e.g. comick, kenmai) that already solved this issue with an intuitive UI. 
+
+
+
+
+
+
 # Issues to groom :pencil2:
 <!-- 3. Connect frontend and backend 
 -Provide Get call (read)
